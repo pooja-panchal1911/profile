@@ -91,10 +91,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResume }) => {
               P
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-base sm:text-lg tracking-tight text-neutral-900 dark:text-white group-hover:text-[#2563eb] transition-colors">
+              <span className="hidden sm:block font-bold text-base sm:text-lg tracking-tight text-neutral-900 dark:text-white group-hover:text-[#2563eb] transition-colors">
                 {PERSONAL_INFO.name}
               </span>
-              <span className="text-[10px] tracking-widest uppercase text-neutral-500 dark:text-neutral-400 font-medium">
+              <span className=" hidden sm:block text-[10px] tracking-widest uppercase text-neutral-500 dark:text-neutral-400 font-medium">
                 Designer &amp; Dev
               </span>
             </div>
