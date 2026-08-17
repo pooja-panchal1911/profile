@@ -39,21 +39,34 @@ export const Contact: React.FC<ContactProps> = ({ onOpenResume }) => {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.name || !formData.email || !formData.message) return;
+  e.preventDefault();
 
-    setFormStatus('submitting');
-    setTimeout(() => {
-      setFormStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        projectType: 'Web Development',
-        budget: '$3k — $5k',
-        message: '',
-      });
-    }, 1000);
-  };
+  if (!formData.name || !formData.email || !formData.message) return;
+
+  const subject = encodeURIComponent(
+    `New Project Inquiry - ${formData.projectType}`
+  );
+
+  const body = encodeURIComponent(
+    `Hello Pooja,
+
+You have received a new project inquiry.
+
+Name: ${formData.name}
+Email: ${formData.email}
+Project Type: ${formData.projectType}
+Budget: ${formData.budget}
+
+Project Brief:
+${formData.message}
+
+---
+Sent from Pooja Panchal Portfolio`
+  );
+
+  window.location.href =
+    `mailto:${PERSONAL_INFO.email}?subject=${subject}&body=${body}`;
+};
 
   return (
     <section id="contact" className="py-20 lg:py-32 relative">
