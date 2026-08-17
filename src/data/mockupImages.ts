@@ -920,20 +920,19 @@ export const PLACEHOLDER_IMAGES = {
   contact: svgToUri(contactSvg),
 
  
-  // Real User Projects connected to actual project images
-  lovedevani:'/assets/images/placeholders/lovedevani.png',
-  zyncAi: '/assets/images/placeholders/zync.png',
-  bearAnalytics:'/assets/images/placeholders/bearanalytics.png',
-  prismaSentinel:'/assets/images/placeholders/prismasentinel.png',
-  realestateSparkle: '/assets/images/placeholders/realestate.png',
-  grossGruppe: '/assets/images/placeholders/gross-grupp.png',
-  clearCyber: '/assets/images/placeholders/clearcyber.png',
-  yumaWorks: '/assets/images/placeholders/YumaWorks.png',
-  abbaTraining: '/assets/images/placeholders/abbatrainindev.png',
-  notaryCourse: '/assets/images/placeholders/notarycourseonline.png',
-  roofHero: '/assets/images/placeholders/roofhero.png',
-  hyperVets: '/assets/images/placeholders/hypervets.png',
-  birdsong: '/assets/images/placeholders/sonyawebtest.png',
-  solarix: '/assets/images/placeholders/solarix.png',
- 
+ // Real User Projects connected to actual project images
+lovedevani: `${import.meta.env.BASE_URL}assets/images/placeholders/lovedevani.png`,
+zyncAi: `${import.meta.env.BASE_URL}assets/images/placeholders/zync.png`,
+bearAnalytics: `${import.meta.env.BASE_URL}assets/images/placeholders/bearanalytics.png`,
+prismaSentinel: `${import.meta.env.BASE_URL}assets/images/placeholders/prismasentinel.png`,
+realestateSparkle: `${import.meta.env.BASE_URL}assets/images/placeholders/realestate.png`,
+grossGruppe: `${import.meta.env.BASE_URL}assets/images/placeholders/gross-grupp.png`,
+clearCyber: `${import.meta.env.BASE_URL}assets/images/placeholders/clearcyber.png`,
+yumaWorks: `${import.meta.env.BASE_URL}assets/images/placeholders/YumaWorks.png`,
+abbaTraining: `${import.meta.env.BASE_URL}assets/images/placeholders/abbatrainindev.png`,
+notaryCourse: `${import.meta.env.BASE_URL}assets/images/placeholders/notarycourseonline.png`,
+roofHero: `${import.meta.env.BASE_URL}assets/images/placeholders/roofhero.png`,
+hyperVets: `${import.meta.env.BASE_URL}assets/images/placeholders/hypervets.png`,
+birdsong: `${import.meta.env.BASE_URL}assets/images/placeholders/sonyawebtest.png`,
+solarix: `${import.meta.env.BASE_URL}assets/images/placeholders/solarix.png`,
 };
