@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="100%" height="100%">
+  <defs>
+    <radialGradient id="heroGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff7a00" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#ff7a00" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c1c" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0d0d0d" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7a00"/>
+      <stop offset="100%" stop-color="#ff5500"/>
+    </linearGradient>
+    <filter id="floatShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient background glow -->
+  <circle cx="350" cy="350" r="320" fill="url(#heroGlow)"/>
+
+  <!-- Geometric rings -->
+  <circle cx="350" cy="350" r="280" fill="none" stroke="#262626" stroke-width="1" stroke-dasharray="8 8"/>
+  <circle cx="350" cy="350" r="220" fill="none" stroke="#ff7a00" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Central UI Studio Glass Canvas -->
+  <g transform="translate(130, 110)" filter="url(#floatShadow)">
+    <rect width="440" height="480" rx="24" fill="url(#cardGrad)" stroke="#333333" stroke-width="1.5"/>
+    
+    <!-- Top window dots -->
+    <circle cx="32" cy="32" r="6" fill="#ff5f56"/>
+    <circle cx="50" cy="32" r="6" fill="#ffbd2e"/>
+    <circle cx="68" cy="32" r="6" fill="#27c93f"/>
+    <text x="140" y="36" fill="#a1a1aa" font-family="system-ui" font-size="12" font-weight="500">PoojaPanchal.design · Workspace</text>
+
+    <!-- Figma Style Inspector Card Inside -->
+    <g transform="translate(24, 64)">
+      <!-- Avatar & Designer Badge -->
+      <rect width="392" height="150" rx="16" fill="#141414" stroke="#2a2a2a" stroke-width="1"/>
+      
+      <!-- Stylized Designer Illustration -->
+      <circle cx="70" cy="75" r="42" fill="#2a1f18" stroke="#ff7a00" stroke-width="2"/>
+      <!-- Designer silhouette representation -->
+      <circle cx="70" cy="65" r="18" fill="#ffd0b0"/>
+      <path d="M 45 105 C 45 85 95 85 95 105 Z" fill="#ff7a00"/>
+      <path d="M 52 60 C 52 50 88 50 88 60 C 88 66 82 72 70 72 C 58 72 52 66 52 60 Z" fill="#2d1c14"/>
+      <!-- Glasses -->
+      <circle cx="64" cy="63" r="5" fill="none" stroke="#ff7a00" stroke-width="1.5"/>
+      <circle cx="76" cy="63" r="5" fill="none" stroke="#ff7a00" stroke-width="1.5"/>
+      <line x1="69" y1="63" x2="71" y2="63" stroke="#ff7a00" stroke-width="1.5"/>
+
+      <text x="130" y="55" fill="#ffffff" font-family="system-ui" font-size="16" font-weight="800">Pooja Panchal</text>
+      <text x="130" y="75" fill="#ff7a00" font-family="system-ui" font-size="12" font-weight="600">UI/UX Designer &amp; Web Developer</text>
+      
+      <!-- Micro tags -->
+      <rect x="130" y="92" width="70" height="22" rx="6" fill="#262626"/>
+      <text x="138" y="107" fill="#d4d4d8" font-family="system-ui" font-size="10">⚡ Figma Pro</text>
+
+      <rect x="208" y="92" width="80" height="22" rx="6" fill="#262626"/>
+      <text x="216" y="107" fill="#d4d4d8" font-family="system-ui" font-size="10">⚛ React + TS</text>
+
+      <rect x="296" y="92" width="75" height="22" rx="6" fill="#262626"/>
+      <text x="304" y="107" fill="#d4d4d8" font-family="system-ui" font-size="10">🌐 Webflow</text>
+    </g>
+
+    <!-- Code & Design nodes section -->
+    <g transform="translate(24, 230)">
+      <rect width="392" height="220" rx="16" fill="#111111" stroke="#262626" stroke-width="1"/>
+      <text x="20" y="32" fill="#71717a" font-family="monospace" font-size="11">// Living Design System &amp; React Component</text>
+      <text x="20" y="56" fill="#ff7a00" font-family="monospace" font-size="12">const <tspan fill="#ffffff">Experience</tspan> = ({ <tspan fill="#38bdf8">passion</tspan>, <tspan fill="#38bdf8">precision</tspan> }) =&gt; {</text>
+      <text x="36" y="80" fill="#a1a1aa" font-family="monospace" font-size="12">return (</text>
+      <text x="52" y="104" fill="#60a5fa" font-family="monospace" font-size="12">&lt;UIUXDesign</text>
+      <text x="68" y="128" fill="#34d399" font-family="monospace" font-size="12">craft={<tspan fill="#f59e0b">"Pixel-Perfect"</tspan>}</text>
+      <text x="68" y="152" fill="#34d399" font-family="monospace" font-size="12">stack={[<tspan fill="#f59e0b">"React"</tspan>, <tspan fill="#f59e0b">"WordPress"</tspan>, <tspan fill="#f59e0b">"Webflow"</tspan>]}</text>
+      <text x="52" y="176" fill="#60a5fa" font-family="monospace" font-size="12">/&gt;</text>
+      <text x="36" y="200" fill="#a1a1aa" font-family="monospace" font-size="12">);</text>
+      <text x="20" y="214" fill="#ff7a00" font-family="monospace" font-size="12">};</text>
+    </g>
+  </g>
+
+  <!-- Floating badge 1: UI/UX Design -->
+  <g transform="translate(40, 140)" filter="url(#floatShadow)">
+    <rect width="170" height="52" rx="12" fill="#181818" stroke="#ff7a00" stroke-width="1.5"/>
+    <circle cx="28" cy="26" r="12" fill="#ff7a00" fill-opacity="0.2"/>
+    <text x="23" y="31" fill="#ff7a00" font-family="system-ui" font-size="14">🎨</text>
+    <text x="48" y="26" fill="#ffffff" font-family="system-ui" font-size="12" font-weight="700">UI/UX Design</text>
+    <text x="48" y="42" fill="#ff7a00" font-family="system-ui" font-size="10">Figma · Design Systems</text>
+  </g>
+
+  <!-- Floating badge 2: Frontend Development -->
+  <g transform="translate(480, 200)" filter="url(#floatShadow)">
+    <rect width="180" height="52" rx="12" fill="#181818" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="28" cy="26" r="12" fill="#38bdf8" fill-opacity="0.2"/>
+    <text x="22" y="31" fill="#38bdf8" font-family="system-ui" font-size="14">💻</text>
+    <text x="48" y="26" fill="#ffffff" font-family="system-ui" font-size="12" font-weight="700">Frontend Dev</text>
+    <text x="48" y="42" fill="#38bdf8" font-family="system-ui" font-size="10">React · TypeScript · Tailwind</text>
+  </g>
+
+  <!-- Floating badge 3: WordPress -->
+  <g transform="translate(40, 480)" filter="url(#floatShadow)">
+    <rect width="160" height="52" rx="12" fill="#181818" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="28" cy="26" r="12" fill="#3b82f6" fill-opacity="0.2"/>
+    <text x="22" y="31" fill="#3b82f6" font-family="system-ui" font-size="14">⚡</text>
+    <text x="48" y="26" fill="#ffffff" font-family="system-ui" font-size="12" font-weight="700">WordPress</text>
+    <text x="48" y="42" fill="#60a5fa" font-family="system-ui" font-size="10">Elementor · Custom PHP</text>
+  </g>
+
+  <!-- Floating badge 4: Webflow -->
+  <g transform="translate(490, 460)" filter="url(#floatShadow)">
+    <rect width="160" height="52" rx="12" fill="#181818" stroke="#10b981" stroke-width="1.5"/>
+    <circle cx="28" cy="26" r="12" fill="#10b981" fill-opacity="0.2"/>
+    <text x="22" y="31" fill="#10b981" font-family="system-ui" font-size="14">🚀</text>
+    <text x="48" y="26" fill="#ffffff" font-family="system-ui" font-size="12" font-weight="700">Webflow</text>
+    <text x="48" y="42" fill="#34d399" font-family="system-ui" font-size="10">Interactions · CMS Hub</text>
+  </g>
+</svg>

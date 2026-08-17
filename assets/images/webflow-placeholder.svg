@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="webflowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="50%" stop-color="#112240"/>
+      <stop offset="100%" stop-color="#020c1b"/>
+    </linearGradient>
+    <linearGradient id="wfBlueOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#146ef5"/>
+      <stop offset="100%" stop-color="#ff7a00"/>
+    </linearGradient>
+    <filter id="wfShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#webflowGrad)"/>
+
+  <g transform="translate(40, 40)" filter="url(#wfShadow)">
+    <!-- Canvas Frame -->
+    <rect width="720" height="520" rx="14" fill="#0d1b2a" stroke="#1e3a5f" stroke-width="1.5"/>
+    <rect width="720" height="44" rx="14" fill="#15293d"/>
+    
+    <circle cx="28" cy="22" r="6" fill="#ff5f56"/>
+    <circle cx="48" cy="22" r="6" fill="#ffbd2e"/>
+    <circle cx="68" cy="22" r="6" fill="#27c93f"/>
+    <rect x="180" y="10" width="360" height="24" rx="6" fill="#0b1724" stroke="#1e3a5f" stroke-width="1"/>
+    <text x="260" y="26" fill="#38bdf8" font-family="system-ui" font-size="11" font-weight="500">https://nexus-studio.webflow.io</text>
+
+    <!-- Webflow designer toolbar simulation -->
+    <rect x="0" y="44" width="720" height="38" fill="#112233" stroke-bottom="#1e3a5f" stroke-width="1"/>
+    <text x="24" y="68" fill="#146ef5" font-family="system-ui" font-size="14" font-weight="900">W</text>
+    <text x="50" y="68" fill="#94a3b8" font-family="system-ui" font-size="11">Page: Home (CMS Single)</text>
+    <rect x="280" y="52" width="28" height="22" rx="4" fill="#1e3a5f"/>
+    <text x="288" y="67" fill="#ffffff" font-family="system-ui" font-size="10">🖥</text>
+    <rect x="315" y="52" width="28" height="22" rx="4" fill="#0b1724"/>
+    <text x="323" y="67" fill="#94a3b8" font-family="system-ui" font-size="10">📱</text>
+
+    <rect x="610" y="50" width="90" height="26" rx="4" fill="#146ef5"/>
+    <text x="625" y="67" fill="#ffffff" font-family="system-ui" font-size="10" font-weight="700">Publish 🚀</text>
+
+    <!-- Main Canvas inside -->
+    <g transform="translate(24, 96)">
+      <!-- Left Navigator Tree -->
+      <rect width="160" height="395" rx="8" fill="#0b1724" stroke="#1e3a5f" stroke-width="1"/>
+      <text x="14" y="24" fill="#94a3b8" font-family="system-ui" font-size="10" font-weight="700">ELEMENT HIERARCHY</text>
+      <text x="14" y="48" fill="#38bdf8" font-family="system-ui" font-size="11">▾ Body (Section-Hero)</text>
+      <text x="24" y="70" fill="#ffffff" font-family="system-ui" font-size="11">▸ Container Large</text>
+      <text x="34" y="92" fill="#ff7a00" font-family="system-ui" font-size="11">• Heading Display</text>
+      <text x="34" y="114" fill="#94a3b8" font-family="system-ui" font-size="11">• Subheading Text</text>
+      <text x="34" y="136" fill="#94a3b8" font-family="system-ui" font-size="11">• Button Wrapper</text>
+      <text x="24" y="165" fill="#38bdf8" font-family="system-ui" font-size="11">▾ CMS Grid Collection</text>
+      <text x="34" y="187" fill="#ff7a00" font-family="system-ui" font-size="11">• Item Card #01</text>
+      <text x="34" y="209" fill="#94a3b8" font-family="system-ui" font-size="11">• Item Card #02</text>
+      <text x="34" y="231" fill="#94a3b8" font-family="system-ui" font-size="11">• Item Card #03</text>
+      <text x="14" y="270" fill="#94a3b8" font-family="system-ui" font-size="10" font-weight="700">INTERACTIONS</text>
+      <text x="14" y="294" fill="#10b981" font-family="system-ui" font-size="11">⚡ On Scroll Parallax</text>
+      <text x="14" y="316" fill="#10b981" font-family="system-ui" font-size="11">⚡ Hover Glow Effect</text>
+      <text x="14" y="338" fill="#10b981" font-family="system-ui" font-size="11">⚡ Magnetic Cursor</text>
+
+      <!-- Center Live Webflow Page Preview -->
+      <g transform="translate(175, 0)">
+        <rect width="320" height="395" rx="8" fill="#07111e" stroke="#ff7a00" stroke-width="1"/>
+        <text x="20" y="36" fill="#ff7a00" font-family="system-ui" font-size="9" font-weight="800">CREATIVE STUDIO AGENCY</text>
+        <text x="20" y="65" fill="#ffffff" font-family="system-ui" font-size="18" font-weight="800">Crafting Visionary</text>
+        <text x="20" y="88" fill="#ffffff" font-family="system-ui" font-size="18" font-weight="800">Brands &amp; 3D Sites.</text>
+        <text x="20" y="112" fill="#94a3b8" font-family="system-ui" font-size="10">Award winning interactions and smooth Webflow CMS setups.</text>
+        
+        <rect x="20" y="130" width="135" height="110" rx="6" fill="#15293d"/>
+        <text x="28" y="222" fill="#ffffff" font-family="system-ui" font-size="10" font-weight="700">Fintech 3.0 Brand</text>
+
+        <rect x="165" y="130" width="135" height="110" rx="6" fill="#15293d"/>
+        <text x="173" y="222" fill="#ffffff" font-family="system-ui" font-size="10" font-weight="700">Metaverse Design</text>
+
+        <rect x="20" y="250" width="280" height="125" rx="6" fill="#112233"/>
+        <text x="32" y="280" fill="#38bdf8" font-family="system-ui" font-size="11" font-weight="700">Client Feedback</text>
+        <text x="32" y="305" fill="#ffffff" font-family="system-ui" font-size="10">"Pooja brought our Webflow vision to life in record time."</text>
+        <text x="32" y="325" fill="#ff7a00" font-family="system-ui" font-size="9">— CTO, Venture Capital</text>
+      </g>
+
+      <!-- Right Style Panel -->
+      <g transform="translate(508, 0)">
+        <rect width="164" height="395" rx="8" fill="#0b1724" stroke="#1e3a5f" stroke-width="1"/>
+        <text x="14" y="24" fill="#94a3b8" font-family="system-ui" font-size="10" font-weight="700">STYLE PANEL</text>
+        <text x="14" y="48" fill="#ffffff" font-family="system-ui" font-size="11">Selector: <tspan fill="#38bdf8">.hero-card</tspan></text>
+        <rect x="14" y="60" width="136" height="50" rx="4" fill="#112233"/>
+        <text x="20" y="78" fill="#94a3b8" font-family="system-ui" font-size="9">DISPLAY: FLEX</text>
+        <text x="20" y="96" fill="#94a3b8" font-family="system-ui" font-size="9">JUSTIFY: BETWEEN</text>
+
+        <text x="14" y="130" fill="#94a3b8" font-family="system-ui" font-size="10" font-weight="700">TYPOGRAPHY</text>
+        <text x="14" y="152" fill="#ffffff" font-family="system-ui" font-size="10">Font: Plus Jakarta</text>
+        <text x="14" y="172" fill="#ffffff" font-family="system-ui" font-size="10">Size: 48px / Line: 1.2</text>
+        <text x="14" y="192" fill="#ffffff" font-family="system-ui" font-size="10">Weight: 800 (Bold)</text>
+
+        <text x="14" y="230" fill="#94a3b8" font-family="system-ui" font-size="10" font-weight="700">BACKGROUND</text>
+        <rect x="14" y="245" width="20" height="20" rx="3" fill="#ff7a00"/>
+        <text x="42" y="260" fill="#ffffff" font-family="system-ui" font-size="10">#FF7A00</text>
+      </g>
+    </g>
+  </g>
+</svg>

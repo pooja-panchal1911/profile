@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mediaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180d28"/>
+      <stop offset="50%" stop-color="#2a1245"/>
+      <stop offset="100%" stop-color="#0c0617"/>
+    </linearGradient>
+    <filter id="mediaShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#mediaGrad)"/>
+  
+  <g transform="translate(40, 40)" filter="url(#mediaShadow)">
+    <rect width="720" height="520" rx="14" fill="#130d1e" stroke="#36224f" stroke-width="1.5"/>
+    <rect width="720" height="44" rx="14" fill="#1e1330"/>
+    
+    <circle cx="28" cy="22" r="6" fill="#ff5f56"/>
+    <circle cx="48" cy="22" r="6" fill="#ffbd2e"/>
+    <circle cx="68" cy="22" r="6" fill="#27c93f"/>
+    <rect x="180" y="10" width="360" height="24" rx="6" fill="#0f0919" stroke="#2e1a47" stroke-width="1"/>
+    <text x="250" y="26" fill="#d8b4fe" font-family="system-ui" font-size="11" font-weight="500">https://mediasearch-pulse.app</text>
+
+    <!-- Top search bar & controls -->
+    <rect x="32" y="60" width="440" height="40" rx="8" fill="#1d1230" stroke="#4c2c78" stroke-width="1"/>
+    <circle cx="56" cy="80" r="7" fill="none" stroke="#ff7a00" stroke-width="2"/>
+    <line x1="61" y1="85" x2="68" y2="92" stroke="#ff7a00" stroke-width="2"/>
+    <text x="80" y="85" fill="#f3e8ff" font-family="system-ui" font-size="13">Synthwave 4K visualizers &amp; audio stems...</text>
+    
+    <!-- Filter pills -->
+    <rect x="485" y="62" width="60" height="36" rx="6" fill="#ff7a00"/>
+    <text x="500" y="84" fill="#ffffff" font-family="system-ui" font-size="11" font-weight="700">All</text>
+    <rect x="555" y="62" width="65" height="36" rx="6" fill="#25163d" stroke="#4c2c78" stroke-width="1"/>
+    <text x="570" y="84" fill="#c084fc" font-family="system-ui" font-size="11">Audio</text>
+    <rect x="630" y="62" width="60" height="36" rx="6" fill="#25163d" stroke="#4c2c78" stroke-width="1"/>
+    <text x="643" y="84" fill="#c084fc" font-family="system-ui" font-size="11">Video</text>
+
+    <!-- Content Grid -->
+    <!-- Card 1 Video player -->
+    <g transform="translate(32, 120)">
+      <rect width="325" height="210" rx="10" fill="#1b102c" stroke="#3d2361" stroke-width="1"/>
+      <rect x="10" y="10" width="305" height="135" rx="6" fill="#2c174a"/>
+      <!-- Audio wave visualizer inside player -->
+      <path d="M 20 80 Q 40 40 60 80 T 100 80 T 140 30 T 180 80 T 220 50 T 260 80 T 300 60" fill="none" stroke="#ff7a00" stroke-width="3"/>
+      <!-- Play button overlay -->
+      <circle cx="162" cy="77" r="22" fill="#ff7a00" fill-opacity="0.9"/>
+      <polygon points="158,68 172,77 158,86" fill="#ffffff"/>
+      <text x="14" y="170" fill="#ffffff" font-family="system-ui" font-size="13" font-weight="700">Cyber City Cyberpunk Atmosphere #42</text>
+      <text x="14" y="190" fill="#a855f7" font-family="system-ui" font-size="11">4K Ultra HD · 60 FPS · 124.5 MB</text>
+      <text x="245" y="190" fill="#ff7a00" font-family="system-ui" font-size="11" font-weight="600">Download ↓</text>
+    </g>
+
+    <!-- Card 2 Audio stem player -->
+    <g transform="translate(365, 120)">
+      <rect width="325" height="210" rx="10" fill="#1b102c" stroke="#3d2361" stroke-width="1"/>
+      <rect x="10" y="10" width="305" height="135" rx="6" fill="#23123b"/>
+      <!-- Spectrum bars -->
+      <rect x="30" y="60" width="8" height="50" rx="2" fill="#a855f7"/>
+      <rect x="45" y="40" width="8" height="70" rx="2" fill="#c084fc"/>
+      <rect x="60" y="70" width="8" height="40" rx="2" fill="#ff7a00"/>
+      <rect x="75" y="30" width="8" height="80" rx="2" fill="#ff7a00"/>
+      <rect x="90" y="50" width="8" height="60" rx="2" fill="#a855f7"/>
+      <rect x="105" y="45" width="8" height="65" rx="2" fill="#c084fc"/>
+      <rect x="120" y="65" width="8" height="45" rx="2" fill="#ff7a00"/>
+      <rect x="135" y="20" width="8" height="90" rx="2" fill="#ff7a00"/>
+      <rect x="150" y="35" width="8" height="75" rx="2" fill="#a855f7"/>
+      <rect x="165" y="55" width="8" height="55" rx="2" fill="#c084fc"/>
+      <rect x="180" y="40" width="8" height="70" rx="2" fill="#ff7a00"/>
+      <rect x="195" y="60" width="8" height="50" rx="2" fill="#ff7a00"/>
+      <rect x="210" y="30" width="8" height="80" rx="2" fill="#a855f7"/>
+      <rect x="225" y="50" width="8" height="60" rx="2" fill="#c084fc"/>
+      <rect x="240" y="70" width="8" height="40" rx="2" fill="#ff7a00"/>
+      <rect x="255" y="45" width="8" height="65" rx="2" fill="#a855f7"/>
+      <rect x="270" y="55" width="8" height="55" rx="2" fill="#ff7a00"/>
+
+      <text x="14" y="170" fill="#ffffff" font-family="system-ui" font-size="13" font-weight="700">Deep Lo-Fi Chill Beats &amp; Rhodes Stems</text>
+      <text x="14" y="190" fill="#a855f7" font-family="system-ui" font-size="11">Lossless FLAC 24-bit 96kHz · 3:45</text>
+      <text x="245" y="190" fill="#ff7a00" font-family="system-ui" font-size="11" font-weight="600">Download ↓</text>
+    </g>
+
+    <!-- Bottom Audio Equalizer Bar -->
+    <g transform="translate(32, 345)">
+      <rect width="658" height="145" rx="10" fill="#190e29" stroke="#3b215e" stroke-width="1"/>
+      <text x="24" y="35" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="700">Live Audio Stream &amp; Spectral Processing</text>
+      <text x="24" y="55" fill="#a855f7" font-family="system-ui" font-size="11">Redux State Buffer · 128-band Real-time FFT Analysis</text>
+      
+      <rect x="24" y="75" width="610" height="8" rx="4" fill="#2d174a"/>
+      <rect x="24" y="75" width="380" height="8" rx="4" fill="#ff7a00"/>
+      <circle cx="404" cy="79" r="8" fill="#ffffff" stroke="#ff7a00" stroke-width="3"/>
+      
+      <text x="24" y="115" fill="#ffffff" font-family="system-ui" font-size="12" font-weight="600">02:14 / 05:40</text>
+      <text x="560" y="115" fill="#a855f7" font-family="system-ui" font-size="12">Master Volume: 85%</text>
+    </g>
+  </g>
+</svg>

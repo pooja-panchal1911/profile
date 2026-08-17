@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="50%" stop-color="#292524"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+    <linearGradient id="aboutGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7a00"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <filter id="aboutCardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="700" rx="20" fill="url(#aboutBg)"/>
+  
+  <!-- Subtle geometric grid -->
+  <circle cx="300" cy="260" r="180" fill="none" stroke="#44403c" stroke-width="1" stroke-dasharray="6 6"/>
+  <circle cx="300" cy="260" r="140" fill="#ff7a00" fill-opacity="0.05"/>
+
+  <!-- Designer Portrait Frame -->
+  <g transform="translate(50, 40)" filter="url(#aboutCardShadow)">
+    <rect width="500" height="620" rx="24" fill="#141414" stroke="#383838" stroke-width="1.5"/>
+
+    <!-- Decorative Top Bar -->
+    <rect x="20" y="20" width="460" height="40" rx="10" fill="#1e1e1e"/>
+    <circle cx="45" cy="40" r="5" fill="#ff5f56"/>
+    <circle cx="60" cy="40" r="5" fill="#ffbd2e"/>
+    <circle cx="75" cy="40" r="5" fill="#27c93f"/>
+    <text x="140" y="44" fill="#a1a1aa" font-family="system-ui" font-size="11" font-weight="500">pooja-panchal · profile &amp; craft</text>
+
+    <!-- Stylized Portrait Studio Visual -->
+    <g transform="translate(100, 80)">
+      <!-- Backdrop circle -->
+      <circle cx="150" cy="150" r="120" fill="url(#aboutGlow)" fill-opacity="0.15"/>
+      <circle cx="150" cy="150" r="95" fill="#221c17" stroke="#ff7a00" stroke-width="2"/>
+      
+      <!-- Female Designer Avatar graphic -->
+      <circle cx="150" cy="130" r="42" fill="#ffd5be"/>
+      <!-- Hair -->
+      <path d="M 105 130 C 105 75 195 75 195 130 C 195 165 185 180 180 190 C 175 160 170 120 150 120 C 130 120 125 160 120 190 C 115 180 105 165 105 130 Z" fill="#291811"/>
+      <!-- Glasses -->
+      <circle cx="138" cy="126" r="10" fill="none" stroke="#ff7a00" stroke-width="2"/>
+      <circle cx="162" cy="126" r="10" fill="none" stroke="#ff7a00" stroke-width="2"/>
+      <line x1="148" y1="126" x2="152" y2="126" stroke="#ff7a00" stroke-width="2"/>
+      <!-- Smile -->
+      <path d="M 142 145 Q 150 153 158 145" fill="none" stroke="#78350f" stroke-width="2" stroke-linecap="round"/>
+      <!-- Shoulders / Blazer -->
+      <path d="M 95 230 C 95 185 205 185 205 230 Z" fill="#ff7a00"/>
+      <polygon points="150,195 140,230 160,230" fill="#ffffff"/>
+    </g>
+
+    <!-- Content breakdown inside portrait frame -->
+    <g transform="translate(30, 370)">
+      <rect width="440" height="220" rx="16" fill="#1c1c1c" stroke="#2e2e2e" stroke-width="1"/>
+      
+      <text x="24" y="36" fill="#ffffff" font-family="system-ui" font-size="18" font-weight="800">Pooja Panchal</text>
+      <text x="24" y="58" fill="#ff7a00" font-family="system-ui" font-size="13" font-weight="600">UI/UX Designer &amp; Frontend Developer</text>
+      <text x="24" y="88" fill="#a1a1aa" font-family="system-ui" font-size="12">Transforming complex user requirements into elegant, high-performance interfaces.</text>
+      
+      <!-- Metrics row -->
+      <line x1="24" y1="110" x2="416" y2="110" stroke="#2e2e2e" stroke-width="1"/>
+      
+      <g transform="translate(24, 125)">
+        <text x="0" y="24" fill="#ffffff" font-family="system-ui" font-size="22" font-weight="800">5+</text>
+        <text x="0" y="42" fill="#71717a" font-family="system-ui" font-size="10">Years Exp</text>
+      </g>
+
+      <g transform="translate(130, 125)">
+        <text x="0" y="24" fill="#ffffff" font-family="system-ui" font-size="22" font-weight="800">40+</text>
+        <text x="0" y="42" fill="#71717a" font-family="system-ui" font-size="10">Projects Done</text>
+      </g>
+
+      <g transform="translate(240, 125)">
+        <text x="0" y="24" fill="#ffffff" font-family="system-ui" font-size="22" font-weight="800">100%</text>
+        <text x="0" y="42" fill="#71717a" font-family="system-ui" font-size="10">Client Focused</text>
+      </g>
+
+      <g transform="translate(340, 125)">
+        <text x="0" y="24" fill="#ff7a00" font-family="system-ui" font-size="22" font-weight="800">Pixel</text>
+        <text x="0" y="42" fill="#ffaa40" font-family="system-ui" font-size="10">Perfect Code</text>
+      </g>
+    </g>
+  </g>
+</svg>
