@@ -90,7 +90,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResume }) => {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#2563eb] to-[#0284c7] flex items-center justify-center text-white font-bold text-sm tracking-tighter shadow-md shadow-[#2563eb]/20 group-hover:scale-105 transition-transform duration-200">
               P
             </div>
-            <div className="flex flex-col  sm:block">
+            <div className="hidden flex lg:flex md:flex lg:flex-col md:flex-col  sm:hidden">
               <span className="font-bold text-base sm:text-lg tracking-tight text-neutral-900 dark:text-white group-hover:text-[#2563eb] transition-colors">
                 {PERSONAL_INFO.name}
               </span>
