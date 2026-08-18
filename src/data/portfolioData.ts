@@ -804,17 +804,20 @@ export const EDUCATION_DATA: EducationItem = {
   period: 'Graduated with Distinction',
   location: 'Gujarat, India',
   grade: 'First Class with Distinction (Honors)',
-  highlights: [
-    'Comprehensive foundation in Human-Computer Interaction, Web Architectures, and Algorithm Design',
-    'Specialized research in Responsive Web Usability and Modern Frontend Performance Optimization',
-    'Led student developer initiatives organizing design hackathons and UI prototyping workshops',
-  ],
-  skillsGained: [
-    'Data Structures & Algorithms',
-    'Human-Computer Interaction (HCI)',
-    'Full Stack Web Development',
-    'Object-Oriented Software Engineering',
-    'Database Systems & Web APIs',
-    'Responsive UI Design Principles',
-  ],
+highlights: [
+  'Strong foundation in UI/UX Design, Human-Computer Interaction, Web Architecture, and Frontend Development',
+  'Specialized focus on Responsive Web Design, Design Systems, Accessibility, and Modern Frontend Performance',
+  'Developed and prototyped user-centered digital experiences using Figma, React, and modern web technologies',
+],
+
+skillsGained: [
+  'UI/UX Design & Prototyping',
+  'Human-Computer Interaction (HCI)',
+  'Responsive Web Design',
+  'Frontend Web Development',
+  'Design Systems & Component Design',
+  'Data Structures & Algorithms',
+  'Database Systems & Web APIs',
+  'Object-Oriented Software Engineering',
+],
 };
