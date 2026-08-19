@@ -934,5 +934,6 @@ export const PLACEHOLDER_IMAGES = {
   hyperVets: `${import.meta.env.BASE_URL}assets/images/placeholders/hypervets.png`,
   birdsong: `${import.meta.env.BASE_URL}assets/images/placeholders/sonyawebtest.png`,
   solarix: `${import.meta.env.BASE_URL}assets/images/placeholders/solarix.png`,
+  nexoraai :`${import.meta.env.BASE_URL}assets/images/placeholders/nexoraai.png`,
  
 };
