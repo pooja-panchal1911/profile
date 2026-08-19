@@ -195,6 +195,7 @@ export const PROJECTS_DATA: Project[] = [
   title: 'Nexora AI',
   category: ['All', 'AI', 'Frontend'],
   categoryDisplay: 'AI · Frontend',
+
   description:
     'A modern AI-focused website designed to present intelligent digital solutions through a clean, futuristic, and responsive user experience.',
 
@@ -202,8 +203,8 @@ export const PROJECTS_DATA: Project[] = [
     'Nexora AI is a modern AI-focused web experience created to showcase intelligent technology, AI-powered solutions, and digital innovation. The website combines a futuristic visual style with a clean content structure, engaging sections, responsive layouts, and intuitive navigation to create a professional and immersive experience across desktop, tablet, and mobile devices.',
 
   technologies: [
-    'Tailwind',
-    'Type Script',
+    'Tailwind CSS',
+    'TypeScript',
     'JavaScript',
     'Responsive UI',
     'UI/UX',
@@ -223,8 +224,11 @@ export const PROJECTS_DATA: Project[] = [
 
   projectType: 'AI Website',
   year: '2026',
-  liveUrl: 'https://pooja-panchal1911.github.io/nexora-ai/',
-   image: PLACEHOLDER_IMAGES.nexoraai,
+
+  link: 'https://pooja-panchal1911.github.io/nexora-ai/',
+  caseStudy: true,
+
+  image: PLACEHOLDER_IMAGES.nexoraai,
 },
   {
   id: 'lovedevani',
